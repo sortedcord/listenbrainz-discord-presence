@@ -14,11 +14,12 @@ from dotenv import load_dotenv
 from pypresence import Presence
 
 load_dotenv()
-DISCORD_CLIENT_ID = os.environ.get('DISCORD_CLIENT_ID')
-LISTENBRAINZ_USER = os.environ.get('LISTENBRAINZ_USER')
-MB_APP_NAME = os.environ.get('MB_APP_NAME')
-MB_APP_VERSION = os.environ.get('MB_APP_VERSION')
-MB_CONTACT = os.environ.get('MB_CONTACT')
+DISCORD_CLIENT_ID = "REDACTED"
+print(DISCORD_CLIENT_ID)
+LISTENBRAINZ_USER = "REDACTED"
+MB_APP_NAME = "discord_rich_presence_lb"
+MB_APP_VERSION = "0.1"
+MB_CONTACT = "[REDACTED]"
 
 # set the logging level based on the --log option;
 parser = argparse.ArgumentParser()
